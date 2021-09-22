@@ -104,8 +104,29 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 0.75em;
+  font-size: 1.75em;
   height: 100%;
+}
+
+header
+footer
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  color: #f16059;
+  font-size: 1.8em;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -116,14 +137,14 @@ body {
   border-style: solid hidden;
   border: 1%;
   border-color: white;
-  padding: 5%;
+  padding: 2%;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: white;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 0.6em;
   background-color: #f16059;
   height: auto;
   display: flex;
